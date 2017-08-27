@@ -21,6 +21,10 @@ public class Controller {
 
         public AnalysisRequest() {
         }
+
+        public AnalysisRequest(String url) {
+            this.url = url;
+        }
     }
 
     @PostMapping("/analyze")
